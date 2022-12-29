@@ -6,3 +6,7 @@ body {
 h1 {
     color: rgba(158, 182, 24, 0.315);
 }
+
+table, td {
+    border: 1px solid black;
+  }
