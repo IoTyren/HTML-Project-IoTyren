@@ -4,9 +4,18 @@ body {
 }
  
 h1 {
-    color: rgba(158, 182, 24, 0.315);
+    color: rgba(223, 202, 21, 0.877);
 }
 
 table, td {
     border: 1px solid black;
   }
+
+th {
+    color: rgb(223, 202, 21, 0.877);
+    
+
+
+  }
+
+  
