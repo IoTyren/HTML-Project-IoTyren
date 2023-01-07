@@ -101,21 +101,35 @@
         <form action="index.html" method="post" >   <!--Starts New Form for Q&A-->
           <h1>Soaps Q&A + Product Feedback & More </h1>
             <p>Tell us all about how you love our soaps</p>
-              <input id="QA0" type="text" name="first-text-field" value="typed"> <!--Example Q&A Field-->
+              <input id="QA0" type="text" name="first-text-field" value="Type Here"> <!--Example Q&A Field-->
                 <label for="QA0"> Type a comment! or ask a question!</label>
+                <br>
                   <input id="Likeness" type="range" name="Likeness" min="0" max="10" step="1" > <!--Adds slider for rating-->
                     <label for="Likeness" >Rate your shopping experience from 1-10</label>
                       <input id="Great" name="Great" type="checkbox" value="Great" >
                         <label>Great Website</label>
                           <input id="Best" name="Best" type="checkbox" value="Best" >
                             <label for="Best" >Best Website</label>
-                              <input id="yes" type="ratio" name="yes" value="love the store">
-                                <label for="yes" >love the store</label>
-                                  <input id="ofcorse" type="ratio" name="ofcorse" value="ofcorse">
-                                    <label for="ofcorse" > really love the store</label>
-                                    <input id="corse" type="ratio" name="corse" value="corse">
-                                    <label for="corse" > the store</label>
+                              <br>
+        <section class="Radio1" id="Radio1-Example" >
+          <span>Do you love the website</span>
+            <input type="radio" name="cheese" id="yes" value="yes">
+              <label for="yes">Yes</label>
+                <input type="radio" name="cheese" id="no" value="yes">
+                  <label for="no">Absolutely</label>
+        </section>
+                              
+                                    
+        <section id="Drop-down-Rating">
+          <span>Select how much you like the website</span>
+          <br>
+          <select name="how-like" id="how-like" >
+            <option name="Love it">Love it</option>
+            <option name="Really love it" >Really love it</option>
+            <option name="Really Really Love it">Really Really love it</option>
+          </select>
 
+        </section>
 
 
 
