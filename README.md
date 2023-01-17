@@ -1,1 +1,1 @@
-# This is just a project i am building to better understand coding lessons and github features 
+# This is just a project I'm building to better understand coding lessons and github features 
